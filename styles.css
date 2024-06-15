@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.nav-bar a:hover {
+    background-color: #45a049;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+    font-size: 14px;
+}
+.form-group input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+.form-group input:focus {
+    border-color: #4CAF50;
+}
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+.record-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    overflow-y: auto;
+    max-height: 400px;
+}
+.record-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #cccccc;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+th {
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-size: 16px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.edit-btn, .delete-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #45a049;
+}

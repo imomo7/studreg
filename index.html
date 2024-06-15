@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Student Enrollment Hub: Streamlined Registration for Success"</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <body>
+        <div class="nav-bar">
+            <a href="#registration">Register</a>
+            <a href="#records">View Records</a>
+        </div>
+    
+        <div id="registration" class="container">
+            <h2>Student Enrollment Hub</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="student-name">Student Name</label>
+                    <input type="text" id="student-name" name="student-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="student-id">Student ID</label>
+                    <input type="text" id="student-id" name="student-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-id">Email ID</label>
+                    <input type="email" id="email-id" name="email-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-no">Contact No</label>
+                    <input type="tel" id="contact-no" name="contact-no" required>
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    
+        <div id="records" class="record-section">
+            <h2>Registered Students</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Email ID</th>
+                        <th>Contact No</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="records-table-body">
+                    <!-- Registered student records will appear here -->
+                </tbody>
+            </table>
+        </div>
+
+
+</body>
+</html>
